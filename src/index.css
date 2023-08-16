@@ -59,6 +59,7 @@ h1 {
 
 section {
   margin-top: 8rem;
+  height: 100vh;
 }
 
 section > h2, section > h5 {
@@ -91,7 +92,9 @@ a:hover {
   padding: 0.75rem 1.2rem;
   cursor: pointer;
   border: 1px solid var(--color-primary);
+  border-radius: 50px;
   transform: var(--transition);
+  
 }
 
 .btn:hover {

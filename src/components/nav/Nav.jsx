@@ -1,27 +1,26 @@
 import React from 'react'
 import './nav.css'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {
-  faHome,
-  faUser,
-  faBook,
-  faPhone,
-} from '@fortawesome/free-solid-svg-icons'
+  AiOutlineHome,
+  AiOutlineUser,
+  AiOutlineAppstoreAdd,
+} from 'react-icons/ai'
+import { BiBookAlt } from 'react-icons/bi'
 
 const Nav = () => {
   return (
     <nav>
-      <a href="#">
-        <FontAwesomeIcon icon={faHome} />
+      <a href="#home">
+        <AiOutlineHome />
       </a>
       <a href="#about">
-        <FontAwesomeIcon icon={faUser} />
+        <AiOutlineUser />
       </a>
       <a href="#skills">
-        <FontAwesomeIcon icon={faBook} />
+        <BiBookAlt />
       </a>
-      <a href="#contact">
-        <FontAwesomeIcon icon={faPhone} />
+      <a href="#projects">
+        <AiOutlineAppstoreAdd />
       </a>
     </nav>
   )
