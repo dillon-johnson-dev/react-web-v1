@@ -4,6 +4,7 @@ import {
   AiOutlineHome,
   AiOutlineUser,
   AiOutlineAppstoreAdd,
+  AiOutlinePhone,
 } from 'react-icons/ai'
 import { BiBookAlt } from 'react-icons/bi'
 import { useState } from 'react'
@@ -40,6 +41,14 @@ const Nav = () => {
         className={activeNav === '#projects' ? 'active' : ''}
       >
         <AiOutlineAppstoreAdd />
+      </a>
+
+      <a
+        href="#contact"
+        onClick={() => setActiveNav('#contact')}
+        className={activeNav === '#contact' ? 'active' : ''}
+      >
+        <AiOutlinePhone />
       </a>
     </nav>
   )
